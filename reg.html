@@ -1,0 +1,86 @@
+<html>
+ <head>
+    <title>Practical 3</title>
+ <style>
+   body
+   {
+    background-color:lightblue;
+    border-radius: 20px;
+    text-align: center;
+   }
+   form
+   {
+    border: 2px solid black;
+    padding: 10px;
+   }
+   input, select 
+   {
+    margin: 10px;
+   }
+ 
+{
+  padding: 4px 30px;
+  background-color: rgb(3, 3, 49);
+  color: white;
+}
+
+ {
+   text-align: right;
+ }
+hr 
+{
+ border: 1px solid black;
+}
+  </style>
+  </head>
+<body>
+  <h2>Registration-Form</h2>
+<form action="">
+  <h3 id="ad"><p style="color:green"><u>Personal Details</u></p></h3>
+
+First Name : <input type="text" placeholder="Enter your first name"><br>
+Last Name : <input type="text" placeholder="Enter your last name"><br>
+Phone no.:<input type="Phone"name="Phone"size="12" maxlegth=""><br>
+
+<label>Street</label>
+<input type="text"name="street"><br>
+<label>City<label>
+<input type="text"name="city"><br>
+Gender : Male<input type="radio" name="sex">
+Female <input type="radio" name="sex"><br>
+Birthdate:<input type="date"name="numdays"min="01"max="31">
+
+<h3 id="ad"><p style="color:green"><u>Account Details</u></p></h3>
+E-mail:<input type="text" placeholder="Enter you Mail-Id"><br>
+Password:<input type="text" placeholder="Create Password"><br>
+
+
+
+
+Select a level of Education : <br>
+<select>
+<option value:"Jr.High">Jr.High</option>
+<option value:"UnderGraduate">Under Graduate</option>
+<option value:"PostGraduate">Post Graduate</option>
+</select><br>
+Select your favorite time of day : <br>
+<select>
+<option value="Morning">Morning</option>
+<option value="Day">Day</option>
+<option value="Night">Night</option>
+</select><br>
+<p style="color:green"><u>Terms and Mailing</u></p>
+	<input type="checkbox"name="checkbox">
+	<label id="left">I accept the Terms and Conditions.</label><br>
+	<input type="checkbox"name="checkbox">
+	<label id="left">I want to recive personalized offers by your site.</label><br>
+	<input type="checkbox"name="checkbox">
+	<label id="left">Allow partners to send me personalized offers and related serivices.</label>
+
+</form>
+<hr>
+<div class="submit">
+<input type="Submit" value="Register>>" id="submit">
+</div>
+</body>
+</html>
